@@ -51,7 +51,7 @@ def K_r(X):
 # deep neural network (ReLU) covariance function
 
 #層の深さを指定
-L = 4
+L = 8
 
 def kernel_tmp(x1, x2, L):
     sigma2_b = 1.0

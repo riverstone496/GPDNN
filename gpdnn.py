@@ -22,6 +22,8 @@ N_train_all = 40
 X_train_all = np.linspace(-3.0, 3.0, N_train_all)
 Y_train_all = np.sin( X_train_all * 2*np.pi / (max(X_train_all) - min(X_train_all)))
 
+#Y_train_all = (np.ceil(X_train_all/2.5-0.5)+0.5) * X_train_all
+
 n = 40  #訓練データ数
 X_train = X_train_all[1:n]
 Y_train = Y_train_all[1:n]

@@ -3,8 +3,8 @@ import numpy as np
 
 x_min = -5
 x_max = 5
-y_max = 3
-y_min = -3
+y_max = 5
+y_min = -2
 
 def plot_result(X, X_train, Y_train, mu, sigma2):
     plt.plot(X_train, Y_train, "xk")
